@@ -25,6 +25,10 @@ h6 {
   font-weight: normal;
 }
 
+p{
+  text-align: justify;
+}
+
 h1 {
   font-size: 40px;
   letter-spacing: -0.2px;
@@ -51,6 +55,7 @@ h1 span {
   justify-content: space-between;
   align-items: center;
   height: 74px;
+  padding-bottom: 10px;
 }
 .menu {
   height: inherit;
@@ -101,7 +106,7 @@ h1 span {
   display: flex;
 }
 .project-imageContainer{
-  padding: 15px;
+  padding: 60px 15px 15px 50px;
 }
 .project-image {
   border-style: solid;
@@ -110,6 +115,8 @@ h1 span {
 }
 .project-description {
   width: 500px;
+  padding-bottom: 50px;
+
 }
 .project-tech {
   color: #626262;
@@ -203,8 +210,8 @@ h1 span {
   background-image: url(../images/twitter.svg);
   background-size: 50px 50px;
 }
-.social-link.facebook {
-  background-image: url(../images/facebook.svg);
+.social-link.linkedin {
+  background-image: url(../images/linkedin.png);
   background-size: 50px 50px;
 }
 .social-link.github {

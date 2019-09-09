@@ -100,6 +100,14 @@ h1 span {
 .project {
   display: flex;
 }
+.project-imageContainer{
+  padding: 15px;
+}
+.project-image {
+  border-style: solid;
+  border-color: #1b2127;
+  border-radius: 5%;
+}
 .project-description {
   width: 500px;
 }
@@ -246,4 +254,5 @@ h1 span {
   flex-shrink: 0;
   justify-content: inherit;
   flex-wrap: inherit;
+  padding: 5px;
 }

@@ -89,7 +89,7 @@ h1 span {
   flex-wrap: wrap;
   padding-bottom: 10px;
 }
-.header ol {
+.header ul {
   display: flex;
 }
 .menu {
@@ -372,10 +372,10 @@ h1 span {
     display: block;
     height: auto;
   }
-  .header ol {
+  .header ul {
     display: block;
   }
-  .header ol li {
+  .header ul li {
     height: 50px;
   }
   .header a {

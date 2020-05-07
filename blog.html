@@ -10,6 +10,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v7.0"></script>
   <i class="icon-menu burger-button" id="burger-menu"></i>
   <header class="header">
     <div class="container">
@@ -19,7 +21,7 @@
         </figure>
       </div>
       <nav class="menu">
-        <ol>
+        <ul>
           <li>
             <a href="#portafolio">Portfolio</a>
           </li>
@@ -29,7 +31,7 @@
           <li>
             <a href="#contacto">More info</a>
           </li>
-        </ol>
+        </ul>
       </nav>
     </div>
   </header>
@@ -37,65 +39,50 @@
     <div class="container">
       <div class="hero-text">
           <h1>
-              Hello everyone out there! <br> My name is <span>Nicolas Albo</span> <br> I'm just a <span>Mexican</span> &#x1F1F2;&#x1F1FD; <br> dreaming with the <span>future</span>
+              <span>Blog</span><br> Here I will be posting about technologies of the past and future!
             </h1>
       </div>
-      <div class="hero-image"><img src="images/hero.png" alt="imagen" height="300px" width="300px"></div>
+      <div class="hero-image"><img src="images/hero-blog.jpeg" alt="imagen" height="300px" width="300px"></div>
     </div>
   </section>
-  <section id="blog" class="portfolio">
-    <div class="container">
-      <div class=portfolio-title>
-          <h2>Portfolio (Remarkable Projects)</h2>
+  <section class="blog">
+      <div class="container">
+          <article class="blog-post">
+            <h3 class=blog-post-title> Capítulo 1: Arquitecutra de computadoras</h3>
+            <h4 class="pregunta"> 1. ¿Cuáles son las principales diferencias entre las arquitecturas Von Neumann y Harvard?</h4>
+            <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+            <h4 class="pregunta"> 2. ¿Qué son y para qué sirven los registros de OPCODE y ADDRESS?</h4>
+            <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+            <h4 class="pregunta"> 3. Empleando Marie, desarrolle un ejemplo que permita comprender la forma en la que se puede visualizar los registros de la computadora como se muestra en la imagen. Use un programa que le permita usar la mayor cantidad de registros (de preferencia todos)</h4>
+            <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+            <h4 class="pregunta"> 4. ¿Qué es un ciclo de instrucción y que se obtiene al implementar pipelining en el diagrama de estado?</h4>
+            <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+            <h4 class="pregunta"> 5. Describa el mapeo en memoria para un procesador con interrupciones habilitadas.</h4>
+            <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+            <h4 class="pregunta"> 6. Describa la importancia de tener jerarquías en los buses de datos.</h4>
+            <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+            <h4 class="pregunta"> 7. Suponga que un procesador para realizar una operación por el bus, requiere de 4 ciclos de reloj. ¿Cuál es la tasa de transferencia máxima que el procesador puede establecer (en MBs), si el reloj es de 500MHz y el bus es de a)16 bits, b)32 bits y c)64 bits?</h4>
+            <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+            <h4 class="pregunta"> 8. En un bus PCI-express se requiere de entender los conceptos de voltajes diferenciales, lane y link. Explique estos conceptos en un bus PCI-express x4</h4>
+            <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+        </article>
+        <article class="blog-post">
+                <h3 class=blog-post-title> Capítulo 2: Arquitecutra de computadoras</h3>
+                <h4 class="pregunta"> 1. Describa la forma en la que se definen las computadoras de una sola tablilla como el caso de la Raspberry.</h4>
+                <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+                <h4 class="pregunta"> 2. Describa la forma en la que se habilita UART e I2C a partir de Raspbian.</h4>
+                <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+                <h4 class="pregunta"> 3. Defina cómo se hace la comunicación de varios elementos en I2C y como se maneja una memoria bajo ese protocolo de comunicación.</h4>
+                <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+                <h4 class="pregunta"> 4. Explique la modularización de una computadora y la forma en la que llevó ese concepto en la práctica que se llevó a cabo en este capítulo.</h4>
+                <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+                <h4 class="pregunta"> 5. Demuestre la forma en la que su raspberry es definida como un servidor y al menos una herramienta que se puede habilitar.</h4>
+                <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+                <h4 class="pregunta"> 6. Describa la forma en la que se puede instalar un sistema operativo en la raspberry.</h4>
+                <p class="respuesta">Lorem Ipsum blblblbllblblblalblalbalblalblalb</p> 
+            </article>
       </div>
-      <article class="project">
-        <div class="project-description">
-          <h3 class="project-title">Pong VHDL</h3>
-          <h5 class="project-tech">VHDL / Nexys 2 FPGA</h5>
-          <p class="project-date"><small><strong>Date:</strong> May 8th, 2019</small></p>
-          <p class="project-url"><small><strong>You can watch it at:</strong> <a href="https://github.com/albonicc/Pong-VHDL">www.github.com/albonicc/Pong-VHDl</a></small></p>
-          <p>Tribute to the classical videogame Pong designed in VHDL and implemented in a Nexys 2 Spartan-3E FPGA Trainer Board. 
-              The ball movements are completely aleatory because there's no Random Function like in High-Level Programming Languages. My team and I used
-              the code of a Cellular Automata provided by our professor of the Advanced Digital Systems course in order to fullfil this task.
-              <br>
-              <br>
-              The project won the 1st place in the CS section of an Engineering competition at my University Campus.
-          </p>
-        </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" src="images/pong_VHDL.jpg" width="500" alt="Pong-VHDL picture"/>
-        </figure>
-      </article>
-      <article class="project">
-        <div class="project-description">
-          <h3 class="project-title">Bluetooth Arduino WALL-E</h3>
-          <h5 class="project-tech">Arduino / Bluetooth</h5>
-          <p class="project-date"><small><strong>Date:</strong> June 8th, 2019</small></p>
-          <p class="project-url"><small><strong>You can watch it at:</strong> <a href="https://www.nicolasalbo.com">www.nicolasalbo.com</a></small></p>
-          <p> Just made a Bluetooth Wireless WALL-E like robot using an Arduino UNO. The robot can move to the front and back, also 
-              it can rotate clockwise or counterclockwise. It includes 2 servomotors so it can move its head in the direction he's going
-              to rotate. 
-              <br>
-              <br>  
-              For controlling WALL-E, an Android Cellphone with the 'Naylamp Car' app is required, otherwise it may not work.
-        </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" src="images/walle_closeup.jpg" width="500"  alt="Bluetooth Arduino WALL-E"/>
-        </figure>
-      </article>
-      <!-- <article class="project">
-        <div class="project-description">
-          <h3 class="project-title">Project 3</h3>
-          <h5 class="project-tech">React Native / React</h5>
-          <p class="project-date"><small><strong>Date:</strong>ddddd</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://something">www.something</a></small></p>
-          <p> Lorem Ipsum........................</p>
-        </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" src="images/project3" width="500" alt="Proyect 3"/>
-        </figure>
-      </article>  -->
-     </div>
+      <div class="fb-comments" data-href="http://nicolasalbo.com/blog.html" data-numposts="5" data-width=""></div>
   </section>
   <section id="contacto" class="contact">
     <div class="container">

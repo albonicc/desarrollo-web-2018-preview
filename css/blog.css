@@ -329,6 +329,15 @@
     color: white;
     font-size: 1.5em;
   }
+  .img-blog-container {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-blog {
+    width: 100%;
+    height: auto;
+  }
   
   @media screen and (max-width: 1023px) {
     .event-list-title {
@@ -460,6 +469,15 @@
       display: block;
       text-align: center;
       border: 1px solid transparent;
+    }
+    .img-blog-container {
+      width: 300px;
+      justify-content: center;
+      align-items: center;
+    }
+    .blog-post {
+      width: inherit;
+      padding: 0;
     }
   
   }

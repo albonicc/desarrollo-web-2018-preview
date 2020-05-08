@@ -416,7 +416,7 @@ h1 span {
   }
   .project-imageContainer {
     padding: 0; */
-    width: 100%;
+    width: 400px;
     align-items: center;
     justify-content: center;
   }
@@ -472,6 +472,9 @@ h1 span {
     display: block;
     text-align: center;
     border: 1px solid transparent;
+  }
+  .project-imageContainer {
+    width: 300px;
   }
 
 }

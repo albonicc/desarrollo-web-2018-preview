@@ -151,7 +151,10 @@
     padding: 20px;
   }
   .blog-post {
-    padding: 50px 50px; 
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left: 0;
+    padding-right: 0; 
   }
   .project-imageContainer{ 
     padding: 60px 15px 15px 50px;
